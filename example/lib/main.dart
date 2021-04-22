@@ -88,7 +88,7 @@ class _ChewieDemoState extends State<ChewieDemo> {
               child: Center(
                 child: _chewieController != null &&
                         _chewieController!
-                            .videoPlayerController.value.isInitialized
+                            .videoPlayerController.value.initialized
                     ? Chewie(
                         controller: _chewieController!,
                       )
